@@ -53,3 +53,11 @@ tab_links.forEach((element) => {
     element.classList.add("active-tab");
   });
 });
+
+var typed = new Typed('.auto-input', {
+	strings: ["Youssef Bouryal", 'Self taught ^1000', 'Web Developer'],
+	typeSpeed: 100,
+	backSpeed: 100,
+	loop: true,
+});
+
