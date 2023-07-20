@@ -55,7 +55,7 @@ tab_links.forEach((element) => {
 });
 
 var typed = new Typed('.auto-input', {
-	strings: ["Youssef Bouryal", 'Self taught ^1000', 'Web Developer'],
+	strings: ["I'm Youssef Bouryal ^1000", 'Tech enthusiast', 'with a passion for', 'coding and basketball '],
 	typeSpeed: 100,
 	backSpeed: 100,
 	loop: true,
