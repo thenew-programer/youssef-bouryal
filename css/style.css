@@ -16,7 +16,7 @@ html {
 }
 body {
   background: var(--bg-color);
-  color: #fff;
+  color: var(--fg-color);
 }
 /* ---------------home-------------------- */
 .home {
